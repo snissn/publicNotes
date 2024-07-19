@@ -17,15 +17,15 @@ In Traditional Chinese Medicine (TCM), the concept of the Six Stages is a crucia
 - **Context**: Shao Yang stage involves alternating symptoms, reflecting a struggle between the body's defenses and the invading pathogen. This stage is marked by fluctuating conditions like alternating fever and chills.
 - **YouTube Video**: [Gallbladder](https://www.youtube.com/shorts/jI__2oWxXgw) and [Triple Warmer](https://www.youtube.com/shorts/70PVIZKGcAk)
 
-## 4. Tai Yin (Greater Yin)
-- **Associated Meridians**: Spleen and Lung
-- **Context**: Tai Yin stage indicates a deeper penetration of illness with symptoms like fatigue, loose stools, and a feeling of cold. It's associated with a deficiency of the spleen (digestive issues) and lung (respiratory issues).
-- **YouTube Video**: [Spleen](https://www.youtube.com/shorts/L32CJA18znQ) and [Lung](https://www.youtube.com/shorts/dF3mO9DRvKY)
-
-## 5. Shao Yin (Lesser Yin)
+## 4. Shao Yin (Lesser Yin)
 - **Associated Meridians**: Kidney and Heart
 - **Context**: In the Shao Yin stage, the illness affects the body's core energy, impacting the kidney and heart. Symptoms can include palpitations, insomnia, and deep coldness. It reflects a deeper level of imbalance.
 - **YouTube Video**: [Kidney](https://www.youtube.com/shorts/2piLY3FAGBM) and [Heart](https://www.youtube.com/shorts/r3ADOU1PkN8)
+
+## 5. Tai Yin (Greater Yin)
+- **Associated Meridians**: Spleen and Lung
+- **Context**: Tai Yin stage indicates a deeper penetration of illness with symptoms like fatigue, loose stools, and a feeling of cold. It's associated with a deficiency of the spleen (digestive issues) and lung (respiratory issues).
+- **YouTube Video**: [Spleen](https://www.youtube.com/shorts/L32CJA18znQ) and [Lung](https://www.youtube.com/shorts/dF3mO9DRvKY)
 
 ## 6. Jue Yin (Terminal Yin)
 - **Associated Meridians**: Liver and Pericardium
