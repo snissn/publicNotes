@@ -12,7 +12,7 @@ This breathing sequence engages meridian groups progressively during each inhale
 
 ### Inhalation (Yang Expansion)
 
-**Important Note:** As you inhale and visualize energy rising along the **Du meridian** (spine), understand that this rising energy is actually supported by a grounding force pressing downward. Imagine pulling downward on a rope—but as you do, your hands move upward along the rope, similar to how energy feels like it’s rising up your spine while the grounding force presses downward. This mirrors how energy feels like it rises along the spine while the grounding force presses downward, anchoring the body. Similarly, inhaling engages your back muscles and spine, grounding your physical body into the earth while energy expands upward. This balance between rising energy and grounding force builds stability and strength.
+**Important Note:** As you inhale and visualize energy rising along the **Du meridian** (spine), understand that this rising energy is supported by a grounding force pressing downward. Imagine pulling downward on a rope—as you do, your hands move upward along the rope. Similarly, energy feels like it rises up the spine while the grounding force presses downward, anchoring the body. Inhaling engages back muscles and the spine, grounding your physical body into the earth while energy expands upward. This balance between rising energy and grounding force builds stability and strength.
 
 1. **Tai Yang (Greater Yang): Bladder & Small Intestine**\
    *Visualization Videos:* [Bladder Meridian Pathway](https://www.youtube.com/shorts/YxYeOYOLOFU) | [Small Intestine Meridian Pathway](https://www.youtube.com/shorts/fBVBru2jWng)\
