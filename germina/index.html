@@ -31,6 +31,14 @@
     header {
       padding: 4rem 2rem;
       text-align: center;
+      position: relative;
+    }
+
+    header img.logo {
+      width: 60px;
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
     }
 
     header h1 {
@@ -50,6 +58,7 @@
       display: flex;
       justify-content: center;
       margin-top: 2rem;
+      animation: fadeInUp 0.8s ease forwards;
     }
 
     .cta a {
@@ -64,6 +73,17 @@
 
     .cta a:hover {
       background-color: var(--electric-mint);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     section {
@@ -83,10 +103,38 @@
       padding: 2rem;
       color: var(--graphite-gray);
     }
+
+    .newsletter {
+      text-align: center;
+      margin-top: 4rem;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 0.75rem;
+      width: 250px;
+      border: none;
+      border-radius: 4px;
+      margin-right: 0.5rem;
+    }
+
+    .newsletter button {
+      padding: 0.75rem 1rem;
+      background-color: var(--sprout-green);
+      color: var(--deep-green);
+      font-weight: 600;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .newsletter button:hover {
+      background-color: var(--electric-mint);
+    }
   </style>
 </head>
 <body>
   <header>
+    <img src="logo.png" alt="Germina Labs logo" class="logo" />
     <h1>Germina Labs</h1>
     <p>Helping Web3-native products grow where they belong.</p>
     <div class="cta">
@@ -102,6 +150,15 @@
   <section>
     <h2>Why Germina Labs</h2>
     <p>Our team blends experience in DX, systems design, and Web3 product growth. We don’t just ship fast — we grow things right. We bring the care, clarity, and structure needed to help your idea thrive in the long term.</p>
+  </section>
+
+  <section class="newsletter">
+    <h2>Stay in the Loop</h2>
+    <p>Subscribe to updates from Germina Labs:</p>
+    <form action="#">
+      <input type="email" placeholder="Your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
   </section>
 
   <footer>
