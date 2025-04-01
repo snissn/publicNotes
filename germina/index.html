@@ -7,12 +7,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --deep-green: #1B2C23;
-      --sprout-green: #A9E67E;
-      --cream-white: #F1EFEA;
-      --graphite-gray: #444E48;
-      --clay-blush: #DBC9BA;
-      --electric-mint: #A3FFC3;
+      --deep-green: #121e17;
+      --sprout-green: #b3f267;
+      --cream-white: #f1efe9;
+      --graphite-gray: #3c4741;
+      --clay-blush: #c4b9a5;
+      --electric-mint: #9effc6;
     }
 
     * {
@@ -25,54 +25,57 @@
       font-family: 'Inter', sans-serif;
       background-color: var(--deep-green);
       color: var(--cream-white);
-      line-height: 1.6;
+      line-height: 1.8;
     }
 
     header {
-      padding: 4rem 2rem;
+      padding: 6rem 2rem 4rem;
       text-align: center;
+      background: radial-gradient(circle at top, #1d3227, var(--deep-green));
       position: relative;
     }
 
     header img.logo {
-      width: 60px;
-      position: absolute;
-      top: 2rem;
-      left: 2rem;
+      height: 200px;
+      display: inline;
+      margin-bottom: -75px;
     }
 
     header h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
       color: var(--sprout-green);
-      margin-bottom: 1rem;
+      font-weight: 800;
+      margin-bottom: 1.2rem;
     }
 
     header p {
       font-size: 1.25rem;
       color: var(--clay-blush);
-      max-width: 600px;
+      max-width: 640px;
       margin: 0 auto;
     }
 
     .cta {
       display: flex;
       justify-content: center;
-      margin-top: 2rem;
+      margin-top: 2.5rem;
       animation: fadeInUp 0.8s ease forwards;
     }
 
     .cta a {
       background-color: var(--sprout-green);
       color: var(--deep-green);
-      padding: 0.75rem 1.5rem;
+      padding: 0.85rem 1.75rem;
       font-weight: 600;
       text-decoration: none;
-      border-radius: 6px;
-      transition: background-color 0.3s;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: background-color 0.3s, transform 0.2s;
     }
 
     .cta a:hover {
       background-color: var(--electric-mint);
+      transform: translateY(-2px);
     }
 
     @keyframes fadeInUp {
@@ -87,21 +90,27 @@
     }
 
     section {
-      padding: 3rem 2rem;
-      max-width: 800px;
+      padding: 4rem 2rem;
+      max-width: 860px;
       margin: 0 auto;
     }
 
     section h2 {
       color: var(--sprout-green);
-      font-size: 2rem;
+      font-size: 2.2rem;
       margin-bottom: 1rem;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      color: var(--cream-white);
     }
 
     footer {
       text-align: center;
-      padding: 2rem;
+      padding: 3rem 2rem;
       color: var(--graphite-gray);
+      font-size: 0.9rem;
     }
 
     .newsletter {
@@ -110,21 +119,23 @@
     }
 
     .newsletter input[type="email"] {
-      padding: 0.75rem;
-      width: 250px;
+      padding: 0.85rem;
+      width: 260px;
       border: none;
       border-radius: 4px;
       margin-right: 0.5rem;
+      font-size: 1rem;
     }
 
     .newsletter button {
-      padding: 0.75rem 1rem;
+      padding: 0.85rem 1.2rem;
       background-color: var(--sprout-green);
       color: var(--deep-green);
       font-weight: 600;
       border: none;
       border-radius: 4px;
       cursor: pointer;
+      font-size: 1rem;
     }
 
     .newsletter button:hover {
@@ -134,7 +145,7 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Germina Labs logo" class="logo" />
+    <p><img src="logo.png" alt="Germina Labs logo" class="logo" /></p>
     <h1>Germina Labs</h1>
     <p>Helping Web3-native products grow where they belong.</p>
     <div class="cta">
