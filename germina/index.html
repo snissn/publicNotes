@@ -34,18 +34,32 @@
       background: radial-gradient(circle at top, #1d3227, var(--deep-green));
       position: relative;
     }
-
-    header img.logo {
-      height: 200px;
-      display: inline;
-      margin-bottom: -75px;
+    header table{
+	    margin: 0 auto;
     }
+
+.logo_crop {
+  width: 68px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo_crop img {
+  position: absolute;
+  left: -68px; /* shift image left by one third */
+  top: 0;
+  height: 200px;
+  display: block;
+}
+
 
     header h1 {
       font-size: 3.5rem;
       color: var(--sprout-green);
       font-weight: 800;
-      margin-bottom: 1.2rem;
+      margin-top: 40px;
+      margin-left:5px;
     }
 
     header p {
@@ -141,13 +155,80 @@
     .newsletter button:hover {
       background-color: var(--electric-mint);
     }
+
+    /* New Contact Form Styles */
+    #contact {
+      padding: 4rem 2rem;
+      max-width: 860px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #contact form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #contact input,
+    #contact textarea {
+      padding: 0.85rem;
+      margin: 0.5rem 0;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    #contact textarea {
+      resize: vertical;
+      min-height: 150px;
+    }
+
+    #contact button {
+      padding: 0.85rem;
+      background-color: var(--sprout-green);
+      color: var(--deep-green);
+      font-weight: 600;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    #contact button:hover {
+      background-color: var(--electric-mint);
+    }
   </style>
 </head>
 <body>
   <header>
-    <p><img src="logo.png" alt="Germina Labs logo" class="logo" /></p>
+	  <table><tr>
+			  
+			  <td>
+
+	  <table><tr>
+			  <td>
+    <p>
+    <div class="logo_crop">
+    <img src="logo.png" alt="Germina Labs logo" class="logo" />
+    </div>
+    </p>
+			  </td><td>
     <h1>Germina Labs</h1>
+			  </td></tr>
+	  </table>
+
+			  </td></tr>
+
+
+			  <tr>
+				  <td>
     <p>Helping Web3-native products grow from the ground up.</p>
+				  </td>
+			  </tr>
+	  </table>
     <div class="cta">
       <a href="#contact">Start Building</a>
     </div>
@@ -162,19 +243,24 @@
     <h2>Why Germina Labs</h2>
     <p>Our team blends experience in DX, systems design, and Web3 product growth. We don’t just ship fast — we grow things right. We bring the care, clarity, and structure needed to help your idea thrive in the long term.</p>
   </section>
+  <!-- New Contact Form Section -->
 
-  <section class="newsletter">
-    <h2>Stay in the Loop</h2>
-    <p>Subscribe to updates from Germina Labs:</p>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to start a project? Send us a message:</p>
     <form action="#">
-      <input type="email" placeholder="Your email" required />
-      <button type="submit">Subscribe</button>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="text" placeholder="Subject" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
     </form>
   </section>
 
   <footer>
     <p>&copy; 2025 Germina Labs. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+  </
+
+
+
 
