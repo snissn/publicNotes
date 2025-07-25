@@ -1,0 +1,64 @@
+:root {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+.app {
+  max-width: 26rem;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 0.4rem 0.5rem;
+}
+
+.input-row button {
+  padding: 0.4rem 0.6rem;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-list li.done span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-list button.delete {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #c00;
+}
+
+.empty {
+  text-align: center;
+  margin-top: 2rem;
+  color: #666;
+}
